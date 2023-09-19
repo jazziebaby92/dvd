@@ -32,7 +32,7 @@ function update() {
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         //Draw DVD Logo and his background
         ctx.fillStyle = logoColor;
-        ctx.fillRect(dvd.x, dvd.y, dvd.img.width*scale-5, dvd.img.height*scale-5);
+        ctx.fillRect(dvd.x, dvd.y, dvd.img.width*scale-1, dvd.img.height*scale-1);
         ctx.drawImage(dvd.img, dvd.x, dvd.y, dvd.img.width*scale, dvd.img.height*scale);
         //Move the logo
         dvd.x+=dvd.xspeed;
